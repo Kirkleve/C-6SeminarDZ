@@ -4,10 +4,12 @@
 0, 7, 8, -2, -2 -> 2
 -1, -7, 567, 89, 223-> 3
 */
-Console.WriteLine("Введите числа, как положительные, так и отрицательные ");
-int[] arrayMass = new int [5];
-int count = 0;
 
+Console.WriteLine("Введите длину массива ");
+int Length = Convert.ToInt32(Console.ReadLine());
+int[] arrayMass = new int [Length];
+int count = 0;
+Console.WriteLine("Введите как положительные, так и отрицательные числа: ");
 FillArray(arrayMass);
 WriteArray(arrayMass);
 
