@@ -6,8 +6,8 @@
 */
 
 Console.WriteLine("Введите длину массива ");
-int Length = Convert.ToInt32(Console.ReadLine());
-int[] arrayMass = new int [Length];
+int length = Convert.ToInt32(Console.ReadLine());
+int[] arrayMass = new int [length];
 int count = 0;
 Console.WriteLine("Введите как положительные, так и отрицательные числа: ");
 FillArray(arrayMass);
